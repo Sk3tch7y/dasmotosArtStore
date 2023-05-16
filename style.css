@@ -1,0 +1,95 @@
+*{
+    font-family: monospace, serif;
+    padding: 0%;
+    margin: 0%;
+   
+}
+h1, h3, h4, h5{
+    border-radius: 15px;;
+}
+header{
+    
+    background-size: cover;
+    background-image: url('./images/pattern.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-clip:content-box;
+}
+header h1{
+    font-size: 28px;
+    padding: 20px;
+    margin: 80px;
+    display: inline-block;
+    background-color: aliceblue;
+}
+
+.shopBlock, h1{
+    text-align: center;
+}
+.shopblock h2{
+    padding: 10%;
+    color: white;
+    text-align: left;
+}
+body h2{
+    padding: 50px;
+}
+#brushes{
+    background-size: cover;
+    background-image: url('./images/hacksaw.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-clip:content-box;
+}
+#frames{
+    background-size: cover;
+    background-image: url('./images/frames.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-clip:content-box;
+}
+#paint{
+    background-size: cover;
+    background-image: url('./images/finnish.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-clip:content-box;
+}
+#brushHead{
+    background-color: orange;
+}
+#framesHead{
+    background-color: lightblue;
+}
+#paintHead{
+    background-color: paleturquoise;
+}
+.shopBlock h3, .shopBlock h4{
+    padding: 10px;
+    margin: 80px;
+    display: inline-block;
+    color: black;
+    background-color: aliceblue;
+}
+.shopBlock h3{
+    font-size: 32px;
+    font-weight: 800;
+}
+.shopBlock h4{
+    font-size: 24px;
+}
+footer{
+    background-color:aliceblue;
+    margin: 0 auto;
+}
+footer h2, footer ul{
+    padding: 20px;
+}
+footer li{
+    display: inline;
+    margin: 0 1%;
+}
